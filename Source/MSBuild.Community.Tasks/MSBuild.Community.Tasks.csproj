@@ -60,6 +60,10 @@
     <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="YamlDotNet, Version=3.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\YamlDotNet.3.9.0\lib\net35\YamlDotNet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\GlobalAssemblyInfo.cs">
@@ -181,6 +185,7 @@
     <Compile Include="Services\Win32Registry.cs" />
     <Compile Include="User\User.cs" />
     <Compile Include="WebUpload.cs" />
+    <Compile Include="YamlRead.cs" />
     <Compile Include="Xml\XmlMassUpdate.cs" />
     <Compile Include="IIS\WebDirectoryScriptMap.cs" />
     <Compile Include="IIS\WebDirectorySetting.cs" />

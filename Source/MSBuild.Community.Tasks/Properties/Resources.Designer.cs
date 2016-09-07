@@ -1028,6 +1028,24 @@ namespace MSBuild.Community.Tasks.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Reading YAML document &quot;{0}&quot;..
+        /// </summary>
+        internal static string YamlReadDocument {
+            get {
+                return ResourceManager.GetString("YamlReadDocument", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to YamlRead result: &quot;{0}&quot;.
+        /// </summary>
+        internal static string YamlReadResult {
+            get {
+                return ResourceManager.GetString("YamlReadResult", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to   added &quot;{0}&quot;..
         /// </summary>
         internal static string ZipAdded {

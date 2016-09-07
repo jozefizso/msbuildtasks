@@ -1,0 +1,5 @@
+environment:
+  access_token:
+    secure: c33b17442180b40749a9d6f82b909902295a542b2a7fb7228647abbb689958b0
+  NUGET_API_KEY:
+    secure: f9396f803081f4dcafb9eb9fc0e06cd32bb98c2b47185fa8359522b2382c2cea

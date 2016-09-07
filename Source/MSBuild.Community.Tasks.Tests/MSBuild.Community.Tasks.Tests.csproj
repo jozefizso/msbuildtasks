@@ -120,6 +120,7 @@
     <Compile Include="Time\TimeTest.cs" />
     <Compile Include="User\UserTest.cs" />
     <Compile Include="WebDownloadTest.cs" />
+    <Compile Include="YamlReadTest.cs" />
     <Compile Include="XmlUpdateTest.cs" />
     <Compile Include="FtpUpload\FtpUploadTest.cs" />
     <Compile Include="MailTest.cs" />

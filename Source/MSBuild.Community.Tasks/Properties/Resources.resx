@@ -456,4 +456,10 @@
   <data name="MergingFile" xml:space="preserve">
     <value>Merging file '{0}' into '{1}'</value>
   </data>
+  <data name="YamlReadDocument" xml:space="preserve">
+    <value>Reading YAML document "{0}".</value>
+  </data>
+  <data name="YamlReadResult" xml:space="preserve">
+    <value>YamlRead result: "{0}"</value>
+  </data>
 </root>
